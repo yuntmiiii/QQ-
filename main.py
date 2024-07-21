@@ -28,7 +28,6 @@ class reply:
         self.message = message
         self.question = str(message.content)
         self.content = None
-# api_key="sk-xAnebCMTcDmAOGMq88DbCc06837a42C5A65fBdE745017bA4"
     def answer(self):
         global message_history
         if self.question.startswith(' /4'):
